@@ -13,7 +13,10 @@
   .social-icons__icon {
     width: 1.4rem;
     height: 1.4rem;
-    background-size: contain;
-    background-repeat: no-repeat;
+    filter: invert(0.4);
+
+    &:hover {
+      filter:none;
+    }
   }
 }
